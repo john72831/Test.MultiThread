@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Test.MultiThread.Processing</AssemblyName>
+    <RootNamespace>Test.MultiThread.Processing</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.MultiThread.Service\Test.MultiThread.Service.csproj" />
+  </ItemGroup>
+
+</Project>
